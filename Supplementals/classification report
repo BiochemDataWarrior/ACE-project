@@ -1,5 +1,4 @@
-Training set classification report:
-
+classification report for training set, XGB algorithm
 
 Accuracy: 0.97
 
@@ -17,21 +16,18 @@ Weighted F1-score: 0.97
 
 Classification Report
 
-              precision    recall  f1-score   support
+                 precision    recall  f1-score   support
 
-           0       0.95      0.98      0.97        60
-           1       0.97      0.97      0.97        63
-           2       1.00      0.97      0.98        61
+      b1-active       1.00      0.97      0.98        63
+b2-intermediate       0.94      0.98      0.96        63
+    b3-inactive       0.98      0.97      0.97        58
 
-    accuracy                           0.97       184
-   macro avg       0.97      0.97      0.97       184
-weighted avg       0.97      0.97      0.97       184
-
-
-
-Test set classification report:
+       accuracy                           0.97       184
+      macro avg       0.97      0.97      0.97       184
+   weighted avg       0.97      0.97      0.97       184
 
 
+classification report for test set, XGB algorithm
 Accuracy: 0.82
 
 Micro Precision: 0.82
@@ -40,7 +36,7 @@ Micro F1-score: 0.82
 
 Macro Precision: 0.83
 Macro Recall: 0.82
-Macro F1-score: 0.82
+Macro F1-score: 0.81
 
 Weighted Precision: 0.83
 Weighted Recall: 0.82
@@ -48,12 +44,12 @@ Weighted F1-score: 0.82
 
 Classification Report
 
-              precision    recall  f1-score   support
+                 precision    recall  f1-score   support
 
-           0       0.82      0.82      0.82        22
-           1       0.87      0.68      0.76        19
-           2       0.80      0.95      0.87        21
+      b1-active       0.76      1.00      0.86        19
+b2-intermediate       0.86      0.63      0.73        19
+    b3-inactive       0.87      0.83      0.85        24
 
-    accuracy                           0.82        62
-   macro avg       0.83      0.82      0.82        62
-weighted avg       0.83      0.82      0.82        62
+       accuracy                           0.82        62
+      macro avg       0.83      0.82      0.81        62
+   weighted avg       0.83      0.82      0.82        62
